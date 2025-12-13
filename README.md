@@ -1,5 +1,5 @@
 # Quantum-Inspired Grid Stress Digital Twin for Extreme Heat Events
-_A QUBO-Inspired Framework Integrated with an Interactive Unity Visualization for Grid Resilience Analysis_
+A QUBO-Inspired Framework Integrated with an Interactive Unity Visualization for Grid Resilience Analysis_
 
 ## Overview
 This project is a small-scope digital twin–style prototype that simulates heatwave-driven stress on a synthetic set of transformer nodes and visualizes risk over time in Unity. It is designed to be interpretable, modular, and extensible for future lab use cases.
