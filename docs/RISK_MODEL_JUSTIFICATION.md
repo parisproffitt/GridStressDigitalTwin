@@ -18,6 +18,7 @@ with sustained high ambient temperatures.
 
 Based on NOAA climate data:
 - Typical summer daytime temperatures range from **85–90°F**
+- Warm or elevated stress temperatures range from **90–95°F**
 - Heatwave conditions commonly reach **95–100°F**
 - Extreme events can exceed **100°F** for sustained periods
 
@@ -127,6 +128,6 @@ scope suitability for a three-week prototype.
 ## Future Validation & Extension
 This framework is designed to support future enhancement with:
 - IEEE-based thermal equations
-- Machine learning forecasting
+- Machine Learning forecasting
 - Real sensor or SCADA data
 - Quantum optimization solvers (QUBO-based)

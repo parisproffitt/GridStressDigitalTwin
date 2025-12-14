@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "T01",
+      "x": 0.0,
+      "y": 0.0,
+      "rating_kva": 250,
+      "neighbors": [
+        "T02"
+      ]
+    },
+    {
+      "id": "T02",
+      "x": 2.0,
+      "y": 0.0,
+      "rating_kva": 250,
+      "neighbors": [
+        "T07",
+        "T01"
+      ]
+    },
+    {
+      "id": "T03",
+      "x": 4.0,
+      "y": 0.0,
+      "rating_kva": 750,
+      "neighbors": [
+        "T04"
+      ]
+    },
+    {
+      "id": "T04",
+      "x": 6.0,
+      "y": 0.0,
+      "rating_kva": 500,
+      "neighbors": [
+        "T05"
+      ]
+    },
+    {
+      "id": "T05",
+      "x": 8.0,
+      "y": 0.0,
+      "rating_kva": 500,
+      "neighbors": [
+        "T10"
+      ]
+    },
+    {
+      "id": "T06",
+      "x": 0.0,
+      "y": -2.0,
+      "rating_kva": 500,
+      "neighbors": [
+        "T01",
+        "T07",
+        "T11"
+      ]
+    },
+    {
+      "id": "T07",
+      "x": 2.0,
+      "y": -2.0,
+      "rating_kva": 250,
+      "neighbors": [
+        "T08",
+        "T12",
+        "T02"
+      ]
+    },
+    {
+      "id": "T08",
+      "x": 4.0,
+      "y": -2.0,
+      "rating_kva": 250,
+      "neighbors": [
+        "T07",
+        "T09",
+        "T13"
+      ]
+    },
+    {
+      "id": "T09",
+      "x": 6.0,
+      "y": -2.0,
+      "rating_kva": 1000,
+      "neighbors": [
+        "T04",
+        "T14",
+        "T10"
+      ]
+    },
+    {
+      "id": "T10",
+      "x": 8.0,
+      "y": -2.0,
+      "rating_kva": 250,
+      "neighbors": [
+        "T15"
+      ]
+    },
+    {
+      "id": "T11",
+      "x": 0.0,
+      "y": -4.0,
+      "rating_kva": 250,
+      "neighbors": [
+        "T16",
+        "T06"
+      ]
+    },
+    {
+      "id": "T12",
+      "x": 2.0,
+      "y": -4.0,
+      "rating_kva": 250,
+      "neighbors": [
+        "T17",
+        "T11"
+      ]
+    },
+    {
+      "id": "T13",
+      "x": 4.0,
+      "y": -4.0,
+      "rating_kva": 500,
+      "neighbors": [
+        "T08"
+      ]
+    },
+    {
+      "id": "T14",
+      "x": 6.0,
+      "y": -4.0,
+      "rating_kva": 500,
+      "neighbors": [
+        "T15",
+        "T09",
+        "T19"
+      ]
+    },
+    {
+      "id": "T15",
+      "x": 8.0,
+      "y": -4.0,
+      "rating_kva": 250,
+      "neighbors": [
+        "T14",
+        "T10",
+        "T20"
+      ]
+    },
+    {
+      "id": "T16",
+      "x": 0.0,
+      "y": -6.0,
+      "rating_kva": 500,
+      "neighbors": [
+        "T17",
+        "T11"
+      ]
+    },
+    {
+      "id": "T17",
+      "x": 2.0,
+      "y": -6.0,
+      "rating_kva": 1000,
+      "neighbors": [
+        "T16"
+      ]
+    },
+    {
+      "id": "T18",
+      "x": 4.0,
+      "y": -6.0,
+      "rating_kva": 500,
+      "neighbors": [
+        "T13",
+        "T19"
+      ]
+    },
+    {
+      "id": "T19",
+      "x": 6.0,
+      "y": -6.0,
+      "rating_kva": 1000,
+      "neighbors": [
+        "T18",
+        "T14",
+        "T20"
+      ]
+    },
+    {
+      "id": "T20",
+      "x": 8.0,
+      "y": -6.0,
+      "rating_kva": 750,
+      "neighbors": [
+        "T15"
+      ]
+    }
+  ],
+  "timesteps": []
+}
