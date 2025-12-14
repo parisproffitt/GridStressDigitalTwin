@@ -3,20 +3,28 @@ from pathlib import Path
 
 from .config import GridConfig
 from .generate_grid import generate_nodes
+from .simulate_heatwave import simulate_timesteps
 from .export import export_sim_output
 
+
 def main() -> None:
-    cfg = GridConfig(num_nodes=20)  # change to any number 10–20
+    # Choose any number 10–20 (per deliverables). Using 20 for richer demos.
+    cfg = GridConfig(num_nodes=20)
+
+    # 1) Generate the static transformer grid (nodes + neighbors + coordinates + ratings)
     nodes = generate_nodes(cfg)
 
-    # Dec 13: nodes only; timesteps added Dec 14–18
-    timesteps = []
+    # 2) Simulate a heatwave progression and compute per-node load_pct across timesteps
+    timesteps = simulate_timesteps(cfg, nodes)
 
+    # 3) Export Unity-ready JSON
     out_path = Path(__file__).resolve().parents[1] / "data" / "generated" / "sim_output.json"
     export_sim_output(nodes, timesteps, out_path)
 
     print(f"[OK] Generated {len(nodes)} nodes")
+    print(f"[OK] Generated {len(timesteps)} timesteps")
     print(f"[OK] Wrote: {out_path}")
+
 
 if __name__ == "__main__":
     main()

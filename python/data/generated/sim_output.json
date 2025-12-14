@@ -200,5 +200,1028 @@
       ]
     }
   ],
-  "timesteps": []
+  "timesteps": [
+    {
+      "t": 0,
+      "ambient_temp_f": 88,
+      "states": [
+        {
+          "id": "T01",
+          "load_pct": 0.6058,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T02",
+          "load_pct": 0.3646,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T03",
+          "load_pct": 0.4153,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T04",
+          "load_pct": 0.3836,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T05",
+          "load_pct": 0.6313,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T06",
+          "load_pct": 0.5337,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T07",
+          "load_pct": 0.5555,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T08",
+          "load_pct": 0.3394,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T09",
+          "load_pct": 0.5359,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T10",
+          "load_pct": 0.3715,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T11",
+          "load_pct": 0.4522,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T12",
+          "load_pct": 0.5304,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T13",
+          "load_pct": 0.3605,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T14",
+          "load_pct": 0.4883,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T15",
+          "load_pct": 0.5479,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T16",
+          "load_pct": 0.5375,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T17",
+          "load_pct": 0.4462,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T18",
+          "load_pct": 0.5652,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T19",
+          "load_pct": 0.6462,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T20",
+          "load_pct": 0.3625,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        }
+      ]
+    },
+    {
+      "t": 1,
+      "ambient_temp_f": 90,
+      "states": [
+        {
+          "id": "T01",
+          "load_pct": 0.6551,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T02",
+          "load_pct": 0.426,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T03",
+          "load_pct": 0.4611,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T04",
+          "load_pct": 0.4297,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T05",
+          "load_pct": 0.7041,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T06",
+          "load_pct": 0.5879,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T07",
+          "load_pct": 0.591,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T08",
+          "load_pct": 0.3611,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T09",
+          "load_pct": 0.5587,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T10",
+          "load_pct": 0.4025,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T11",
+          "load_pct": 0.4819,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T12",
+          "load_pct": 0.5982,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T13",
+          "load_pct": 0.4202,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T14",
+          "load_pct": 0.498,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T15",
+          "load_pct": 0.5814,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T16",
+          "load_pct": 0.5633,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T17",
+          "load_pct": 0.5161,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T18",
+          "load_pct": 0.589,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T19",
+          "load_pct": 0.6879,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T20",
+          "load_pct": 0.3918,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        }
+      ]
+    },
+    {
+      "t": 2,
+      "ambient_temp_f": 92,
+      "states": [
+        {
+          "id": "T01",
+          "load_pct": 0.6729,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T02",
+          "load_pct": 0.4456,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T03",
+          "load_pct": 0.4951,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T04",
+          "load_pct": 0.469,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T05",
+          "load_pct": 0.7218,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T06",
+          "load_pct": 0.5988,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T07",
+          "load_pct": 0.6501,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T08",
+          "load_pct": 0.4095,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T09",
+          "load_pct": 0.5858,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T10",
+          "load_pct": 0.4282,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T11",
+          "load_pct": 0.5141,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T12",
+          "load_pct": 0.6206,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T13",
+          "load_pct": 0.4512,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T14",
+          "load_pct": 0.541,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T15",
+          "load_pct": 0.591,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T16",
+          "load_pct": 0.5973,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T17",
+          "load_pct": 0.5566,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T18",
+          "load_pct": 0.6271,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T19",
+          "load_pct": 0.7566,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T20",
+          "load_pct": 0.4522,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        }
+      ]
+    },
+    {
+      "t": 3,
+      "ambient_temp_f": 95,
+      "states": [
+        {
+          "id": "T01",
+          "load_pct": 0.7038,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T02",
+          "load_pct": 0.519,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T03",
+          "load_pct": 0.5481,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T04",
+          "load_pct": 0.5024,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T05",
+          "load_pct": 0.7728,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T06",
+          "load_pct": 0.6646,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T07",
+          "load_pct": 0.6636,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T08",
+          "load_pct": 0.453,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T09",
+          "load_pct": 0.6576,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T10",
+          "load_pct": 0.5189,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T11",
+          "load_pct": 0.603,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T12",
+          "load_pct": 0.659,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T13",
+          "load_pct": 0.4908,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T14",
+          "load_pct": 0.587,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T15",
+          "load_pct": 0.6745,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T16",
+          "load_pct": 0.6695,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T17",
+          "load_pct": 0.5811,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T18",
+          "load_pct": 0.6845,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T19",
+          "load_pct": 0.7963,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T20",
+          "load_pct": 0.4749,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        }
+      ]
+    },
+    {
+      "t": 4,
+      "ambient_temp_f": 97,
+      "states": [
+        {
+          "id": "T01",
+          "load_pct": 0.7736,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T02",
+          "load_pct": 0.547,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T03",
+          "load_pct": 0.5848,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T04",
+          "load_pct": 0.5334,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T05",
+          "load_pct": 0.7986,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T06",
+          "load_pct": 0.6849,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T07",
+          "load_pct": 0.6909,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T08",
+          "load_pct": 0.5021,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T09",
+          "load_pct": 0.7135,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T10",
+          "load_pct": 0.5488,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T11",
+          "load_pct": 0.6147,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T12",
+          "load_pct": 0.6862,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T13",
+          "load_pct": 0.5409,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T14",
+          "load_pct": 0.6603,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T15",
+          "load_pct": 0.6748,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T16",
+          "load_pct": 0.6881,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T17",
+          "load_pct": 0.6078,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T18",
+          "load_pct": 0.7247,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T19",
+          "load_pct": 0.8404,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T20",
+          "load_pct": 0.5087,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        }
+      ]
+    },
+    {
+      "t": 5,
+      "ambient_temp_f": 99,
+      "states": [
+        {
+          "id": "T01",
+          "load_pct": 0.7976,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T02",
+          "load_pct": 0.5833,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T03",
+          "load_pct": 0.5974,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T04",
+          "load_pct": 0.5776,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T05",
+          "load_pct": 0.8558,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T06",
+          "load_pct": 0.7133,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T07",
+          "load_pct": 0.7409,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T08",
+          "load_pct": 0.5255,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T09",
+          "load_pct": 0.7204,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T10",
+          "load_pct": 0.562,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T11",
+          "load_pct": 0.6817,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T12",
+          "load_pct": 0.7479,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T13",
+          "load_pct": 0.5572,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T14",
+          "load_pct": 0.6788,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T15",
+          "load_pct": 0.7093,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T16",
+          "load_pct": 0.7119,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T17",
+          "load_pct": 0.6566,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T18",
+          "load_pct": 0.7526,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T19",
+          "load_pct": 0.8537,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T20",
+          "load_pct": 0.5473,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        }
+      ]
+    },
+    {
+      "t": 6,
+      "ambient_temp_f": 100,
+      "states": [
+        {
+          "id": "T01",
+          "load_pct": 0.7982,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T02",
+          "load_pct": 0.6047,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T03",
+          "load_pct": 0.6124,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T04",
+          "load_pct": 0.5945,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T05",
+          "load_pct": 0.8947,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T06",
+          "load_pct": 0.7242,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T07",
+          "load_pct": 0.7452,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T08",
+          "load_pct": 0.5386,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T09",
+          "load_pct": 0.7396,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T10",
+          "load_pct": 0.572,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T11",
+          "load_pct": 0.6974,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T12",
+          "load_pct": 0.7625,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T13",
+          "load_pct": 0.5758,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T14",
+          "load_pct": 0.71,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T15",
+          "load_pct": 0.7532,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T16",
+          "load_pct": 0.7277,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T17",
+          "load_pct": 0.6644,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T18",
+          "load_pct": 0.7636,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T19",
+          "load_pct": 0.8809,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        },
+        {
+          "id": "T20",
+          "load_pct": 0.575,
+          "risk_score": 0.0,
+          "risk_level": "G",
+          "explanation": "Placeholder (risk/explanation added next step)."
+        }
+      ]
+    }
+  ]
 }
