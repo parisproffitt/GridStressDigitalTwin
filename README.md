@@ -8,11 +8,11 @@ This project is a small-scope digital twin–style prototype that simulates heat
 Extreme heat events can push distribution transformers closer to thermal limits. Traditional monitoring often relies on threshold alarms and provides limited forecasting or intuitive visualization of evolving stress patterns.
 
 ## What this prototype includes
-- **Synthetic grid generator** (10–20 transformer nodes, coordinates, ratings, baseline loads)
-- **Heatwave simulation** (ambient temperature increases over time; loads scale accordingly)
-- **Rule-based risk model** (risk_score 0–1 and risk_level G/Y/R using interpretable heuristics)
-- **Explanation engine** (plain-language reasons for risk level)
-- **Unity visualization** (color-coded nodes, click-to-explain, time slider)
+- **Synthetic Grid Generator** (20 transformer nodes, coordinates, ratings, baseline loads)
+- **7-Stage Heatwave Simulation** (ambient temperature increases over time; loads scale accordingly)
+- **Rule-Based Risk Model** (risk_score 0–1 and risk_level G/Y/R using interpretable heuristics)
+- **Explanation Engine** (plain-language reasons for risk level)
+- **Unity Visualization** (color-coded nodes, click-to-explain, time slider)
 
 > Note: “Quantum-inspired” refers to QUBO-inspired framing and compatibility with future quantum optimization integration. No quantum computations are performed in this prototype.
 
