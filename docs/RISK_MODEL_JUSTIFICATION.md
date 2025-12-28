@@ -35,7 +35,7 @@ Transformer thermal stress increases due to two primary factors:
 ### 1. Electrical Load
 - Higher load increases internal winding and oil temperatures
 - Operating near or above rated capacity accelerates aging
-- Sustained loads above ~85–90% are commonly treated as warning or
+- Sustained loads above 85–90% are commonly treated as warning or
   critical conditions in utility operations
 
 ### 2. Ambient Temperature
@@ -43,7 +43,7 @@ Transformer thermal stress increases due to two primary factors:
 - Higher air temperature reduces cooling effectiveness
 - High nighttime temperatures during heatwaves prevent cooldown
 
-IEEE literature commonly references **110°C hot-spot temperature** as a
+IEEE commonly references **110°C hot-spot temperature** as a
 critical aging threshold. This prototype does not explicitly simulate
 hot-spot temperature but approximates risk using ambient temperature
 and load interactions.
