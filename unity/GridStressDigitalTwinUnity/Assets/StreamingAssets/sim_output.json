@@ -771,11 +771,11 @@
         },
         {
           "id": "T19",
-          "load_pct": 0.7963,
-          "risk_score": 0.2658,
-          "risk_level": "G",
-          "explanation": "Risk driven by heatwave-level temperature."
-        },
+          "load_pct": 0.8040,
+          "risk_score": 0.41,
+          "risk_level": "Y",
+          "explanation": "Risk driven by heatwave-level temperature (95°F), elevated load (~80%). Monitor conditions."
+        },        
         {
           "id": "T20",
           "load_pct": 0.4749,
@@ -1112,10 +1112,10 @@
         {
           "id": "T05",
           "load_pct": 0.8947,
-          "risk_score": 0.6618,
-          "risk_level": "Y",
-          "explanation": "Risk driven by extreme ambient heat, elevated load (89%). Monitor conditions."
-        },
+          "risk_score": 0.78,
+          "risk_level": "R",
+          "explanation": "Extreme ambient heat combined with sustained high loading is pushing this transformer into an unsafe operating region. Immediate attention recommended."
+        },        
         {
           "id": "T06",
           "load_pct": 0.7242,
@@ -1210,9 +1210,9 @@
         {
           "id": "T19",
           "load_pct": 0.8809,
-          "risk_score": 0.6273,
-          "risk_level": "Y",
-          "explanation": "Risk driven by extreme ambient heat, elevated load (88%). Monitor conditions."
+          "risk_score": 0.74,
+          "risk_level": "R",
+          "explanation": "Peak heat conditions and high loading indicate elevated failure likelihood. Dispatch inspection or load rebalancing recommended."
         },
         {
           "id": "T20",
