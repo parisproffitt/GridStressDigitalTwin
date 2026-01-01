@@ -771,11 +771,11 @@
         },
         {
           "id": "T19",
-          "load_pct": 0.7963,
-          "risk_score": 0.2658,
-          "risk_level": "G",
-          "explanation": "Risk driven by heatwave-level temperature."
-        },
+          "load_pct": 0.8040,
+          "risk_score": 0.41,
+          "risk_level": "Y",
+          "explanation": "Risk driven by heatwave-level temperature (95°F), elevated load (~80%). Monitor conditions."
+        },        
         {
           "id": "T20",
           "load_pct": 0.4749,
