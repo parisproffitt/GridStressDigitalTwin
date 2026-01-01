@@ -12,6 +12,22 @@ public class GridManager : MonoBehaviour
     [Header("Playback")]
     public float timestepInterval = 2f; // seconds between heat stages
 
+    [Header("Layout (Visual Polish)")]
+    [Tooltip("How wide the whole neighborhood should be (Unity units)")]
+    public float worldWidth = 8.5f;
+
+    [Tooltip("How tall the whole neighborhood should be (Unity units)")]
+    public float worldHeight = 6.0f;
+
+    [Tooltip("Small organic offset per node (Unity units). Keep subtle (0.2–0.6).")]
+    public float jitter = 0.35f;
+
+    [Tooltip("Keep nodes away from the edges a bit (Unity units).")]
+    public float padding = 0.6f;
+
+    [Tooltip("Seed so layout is stable every run (good for demos).")]
+    public int layoutSeed = 2026;
+
     // Internal data
     private SimOutput sim;
 
@@ -20,9 +36,13 @@ public class GridManager : MonoBehaviour
 
     private int currentTimestep = 0;
 
+    // Cached bounds for coordinate normalization
+    private float minX, maxX, minY, maxY;
+
     void Start()
     {
         LoadSimulationData();
+        CacheNodeBounds();
         SpawnNodes();
 
         // Start heatwave playback
@@ -54,14 +74,36 @@ public class GridManager : MonoBehaviour
         Debug.Log($"Loaded nodes={sim.nodes.Count}, timesteps={sim.timesteps.Count}");
     }
 
+    void CacheNodeBounds()
+    {
+        // Find min/max of JSON coordinates so we can normalize to a nicer layout
+        minX = float.PositiveInfinity;
+        maxX = float.NegativeInfinity;
+        minY = float.PositiveInfinity;
+        maxY = float.NegativeInfinity;
+
+        if (sim == null || sim.nodes == null || sim.nodes.Count == 0) return;
+
+        foreach (var n in sim.nodes)
+        {
+            if (n.x < minX) minX = n.x;
+            if (n.x > maxX) maxX = n.x;
+            if (n.y < minY) minY = n.y;
+            if (n.y > maxY) maxY = n.y;
+        }
+
+        // If all coords are same somehow, avoid divide-by-zero normalization
+        if (Mathf.Abs(maxX - minX) < 0.0001f) { minX -= 1f; maxX += 1f; }
+        if (Mathf.Abs(maxY - minY) < 0.0001f) { minY -= 1f; maxY += 1f; }
+    }
+
     void SpawnNodes()
     {
         if (sim == null || sim.nodes == null) return;
 
         foreach (var n in sim.nodes)
         {
-            // JSON x/y -> Unity x/z (flat plane)
-            Vector3 pos = new Vector3(n.x, 0f, n.y);
+            Vector3 pos = ComputePolishedPosition(n.id, n.x, n.y);
 
             GameObject go = Instantiate(nodePrefab, pos, Quaternion.identity);
             go.name = n.id;
@@ -72,6 +114,53 @@ public class GridManager : MonoBehaviour
             view.NodeId = n.id;
 
             nodeObjects[n.id] = go;
+        }
+    }
+
+    Vector3 ComputePolishedPosition(string nodeId, float x, float y)
+    {
+        // Normalize JSON x/y into [0,1]
+        float nx = Mathf.InverseLerp(minX, maxX, x);
+        float ny = Mathf.InverseLerp(minY, maxY, y);
+
+        // Map to centered world space, using XZ plane
+        float usableW = Mathf.Max(0.1f, worldWidth - padding);
+        float usableH = Mathf.Max(0.1f, worldHeight - padding);
+
+        float px = (nx - 0.5f) * usableW;
+        float pz = (ny - 0.5f) * usableH;
+
+        // Deterministic jitter per node (stable every run, no Random.Range dependency)
+        float jx = (HashTo01(nodeId, layoutSeed) - 0.5f) * 2f * jitter;
+        float jz = (HashTo01(nodeId, layoutSeed ^ 0x9e3779b9) - 0.5f) * 2f * jitter;
+
+        // Optional: tiny neighborhood “skew” so it’s less perfectly aligned
+        // (Very subtle; keeps it looking like streets/blocks.)
+        float skew = 0.15f;
+        px += (ny - 0.5f) * skew;
+        pz += (nx - 0.5f) * skew;
+
+        return new Vector3(px + jx, 0f, pz + jz);
+    }
+
+    // Stable hash -> [0,1)
+    float HashTo01(string s, int seed)
+    {
+        unchecked
+        {
+            int h = seed;
+            for (int i = 0; i < s.Length; i++)
+                h = (h * 31) + s[i];
+
+            // Mix bits
+            uint x = (uint)h;
+            x ^= x >> 17;
+            x *= 0xed5ad4bb;
+            x ^= x >> 11;
+            x *= 0xac4c1b51;
+            x ^= x >> 15;
+
+            return (x & 0xFFFFFF) / (float)0x1000000; // 24-bit fraction
         }
     }
 
