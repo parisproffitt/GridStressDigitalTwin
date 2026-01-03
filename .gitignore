@@ -15,3 +15,6 @@ UserSettings/
 
 # OS
 .DS_Store
+# Unity recordings / large media
+unity/GridStressDigitalTwinUnity/Recordings/
+*.mov
