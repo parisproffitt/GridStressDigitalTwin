@@ -1,4 +1,4 @@
-# Quantum-Inspired Grid Stress Digital Twin for Extreme Heat Events  
+# Grid Stress Simulation for Extreme Heat Events in the U.S. (QUBO Risk Model) 
 ### Simulation Research Framework for Grid Resilience Modeling
 
 <img width="1200" height="600" alt="GridScene" src="https://github.com/user-attachments/assets/479136de-89c6-473a-a3bb-e2c4d3a07422" />
