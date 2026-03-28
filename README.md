@@ -1,11 +1,8 @@
-# Grid Stress Simulation for Extreme Heat Events in the U.S. (QUBO Risk Model) 
-### Simulation Research Framework for Grid Resilience Modeling
-
-<img width="1200" height="600" alt="GridScene" src="https://github.com/user-attachments/assets/479136de-89c6-473a-a3bb-e2c4d3a07422" />
-
----
+# Quantum-Inspired Grid Stress Digital Twin for Extreme Heat Events
+A QUBO-inspired risk model paired with a simple Unity visualization for grid stress during heat events.
 
 ## Overview
+This prototype simulates heatwave-driven stress on a small synthetic set of transformer nodes and visualizes the results over time in Unity. The goal is to keep the flow easy to read and straightforward to extend.
 
 This project was developed as part of a DOE-funded simulation research initiative focused on extreme-heat risk analysis for U.S. power utilities.
 
@@ -170,6 +167,11 @@ The visualization consumes structured JSON outputs and does not embed risk logic
 - Structured JSON/CSV pipeline  
 
 ---
+
+## How it can be useful to the lab
+- Reusable starting point for grid stress demos
+- Shows a clean data pipeline from simulation output → Unity visualization
+- Leaves clear hooks for real datasets, ML models, or quantum solvers
 
 ## Quick Start (Python)
 

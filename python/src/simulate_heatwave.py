@@ -28,7 +28,7 @@ def temp_norm(ambient_f: float, t0: float = 85.0, t1: float = 100.0) -> float:
 def simulate_timesteps(cfg: GridConfig, nodes: List[Node]) -> List[Dict[str, Any]]:
     rng = get_rng(cfg.seed)
 
-    # City-wide variation: each node gets baseline demand + a local demand factor
+    # City-wide variation: each node gets baseline demand plus a local factor
     baseline_load: Dict[str, float] = {
         n.id: rng.uniform(cfg.baseline_load_min, cfg.baseline_load_max) for n in nodes
     }
@@ -48,10 +48,10 @@ def simulate_timesteps(cfg: GridConfig, nodes: List[Node]) -> List[Dict[str, Any
             base = baseline_load[n.id]
             factor = demand_factor[n.id]
 
-            # Heat-driven uplift: up to +25% as we approach 100F
+            # Heat-driven uplift: up to +25% as ambient nears 100F
             uplift = tn * 0.25
 
-            # Small variability so curves aren’t perfectly smooth (still deterministic via seed)
+            # Add small variability so curves aren’t perfectly smooth (still deterministic via seed)
             noise = rng.uniform(-0.02, 0.02)
 
             load_pct = clamp((base + uplift + noise) * factor, 0.0, 1.0)
@@ -59,10 +59,10 @@ def simulate_timesteps(cfg: GridConfig, nodes: List[Node]) -> List[Dict[str, Any
             states.append({
                 "id": n.id,
                 "load_pct": round(load_pct, 4),
-                # placeholders (we will fill these next step)
+                # Filled in by risk scoring and explanations next step
                 "risk_score": 0.0,
                 "risk_level": "G",
-                "explanation": "Placeholder (risk/explanation added next step)."
+                "explanation": ""
             })
 
         timesteps.append({

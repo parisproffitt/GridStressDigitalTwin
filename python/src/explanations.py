@@ -10,8 +10,7 @@ def _pct(x: float) -> str:
 
 def apply_explanations(nodes: List[Node], timesteps: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
-    Fills the 'explanation' field for each node state using simple,
-    human-interpretable rules consistent with the design document.
+    Fill the 'explanation' field for each node state using the same plain rules described in the design notes.
     """
     neighbor_map: Dict[str, List[str]] = {n.id: n.neighbors for n in nodes}
 
