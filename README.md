@@ -3,6 +3,8 @@ A QUBO-inspired risk model paired with a simple Unity visualization for grid str
 
 [![Demo](GridScene.png)](https://github.com/user-attachments/assets/e1acbaf3-58ea-4822-954d-f233a7e79b80)
 
+---
+
 ## Overview
 This prototype simulates heatwave-driven stress on a small synthetic set of transformer nodes and visualizes the results over time in Unity. The goal is to keep the flow easy to read and straightforward to extend.
 
