@@ -17,6 +17,10 @@ It implements a modular digital twin–style framework that:
 
 The system is architected to separate simulation logic, risk modeling, and visualization, enabling extensibility for future ML or optimization integration.
 
+
+## Demo Video 
+<img width="756" height="367" alt="Demo Video" src="https://github.com/user-attachments/assets/922496ba-c154-4205-a753-5c6c48a83527" />
+
 ---
 
 ## Research Objective
@@ -71,6 +75,8 @@ The simulation progresses through 7 discrete environmental stages:
 - Thermal margin and overload factors are recalculated per timestep  
 
 This models progressive environmental stress rather than binary overload events.
+
+<img width="342" height="393" alt="Heatwave Progression" src="https://github.com/user-attachments/assets/17c0c88d-6836-4b9a-a02f-dc328a54449d" />
 
 ---
 
