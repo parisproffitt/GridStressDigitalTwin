@@ -1,16 +1,28 @@
 # Quantum-Inspired Grid Stress Digital Twin for Extreme Heat Events
-A QUBO-inspired risk model paired with a Unity-based visualization to simulate grid stress during heat events, informed by research on power grid and climate trends observed across the Southern United States (2015–2025).
+
+A QUBO (Quadratic Unconstrained Binary Optimization)-inspired risk modeling system integrated with a Unity-based digital twin.
+
+Simulates grid stress during extreme heat events, informed by power grid and climate trends across the Southern United States (2015–2025).
 
 [![Demo](GridScene.png)](https://github.com/user-attachments/assets/e1acbaf3-58ea-4822-954d-f233a7e79b80)
 
 ---
 
+## System Snapshot
+
+- Purpose: Simulate transformer stress under extreme heat conditions  
+- Approach: QUBO-inspired risk modeling with a digital twin visualization  
+- Scale: 20-node synthetic grid with 7-stage heatwave progression  
+- Output: Real-time risk classification (Green / Yellow / Red) with explanations  
+- Stack: Python simulation pipeline, JSON/CSV data contracts, Unity (C#) frontend  
+
+---
+
 ## Overview
-This prototype simulates heatwave-driven stress on a small synthetic set of transformer nodes and visualizes the results over time in Unity. The goal is to keep the flow easy to read and straightforward to extend.
 
-This project was developed as part of a DOE-funded simulation research initiative focused on extreme-heat risk analysis for U.S. power utilities.
+This system simulates heatwave-driven stress across a synthetic transformer network and visualizes the results over time in Unity. It was developed as part of a DOE-funded simulation research initiative focused on extreme-heat risk analysis for U.S. power utilities.
 
-It implements a modular digital twin–style framework that:
+The framework is designed as a modular digital twin system that:
 
 - Models heat-driven stress across a synthetic 20-node distribution grid  
 - Simulates a 7-stage heatwave progression  
@@ -19,20 +31,27 @@ It implements a modular digital twin–style framework that:
 - Generates interpretable plaintext explanations  
 - Streams structured JSON/CSV outputs into an interactive Unity visualization  
 
-The system is architected to separate simulation logic, risk modeling, and visualization, enabling extensibility for future ML or optimization integration.
+The system separates simulation logic, risk modeling, and visualization through structured data contracts, enabling extensibility for future ML, optimization, or real-time data integration.
 
 ---
 
-## Research Objective
+## Real-World Context
 
-Extreme heat events increase transformer loading, accelerate insulation aging, and raise failure probability.
+Extreme heat events increase transformer loading, reduce cooling efficiency, and accelerate insulation aging, raising failure probability.
+
+Observed utility behavior and research trends indicate:
+
+- Load increases of approximately 5–15% during sustained heatwaves  
+- Elevated ambient temperatures reduce heat dissipation capacity  
+- Overnight cooling is limited during extreme conditions  
 
 Traditional monitoring systems often:
+
 - Rely on static threshold alarms  
 - Provide limited interpretability  
 - Lack scenario-based stress progression modeling  
 
-This framework enables structured stress simulation, interpretable risk scoring, and time-based visualization of evolving transformer conditions.
+This system enables structured stress simulation, interpretable risk scoring, and time-based visualization of evolving infrastructure conditions.
 
 ---
 
@@ -48,7 +67,7 @@ The pipeline is organized into the following stages:
 6. JSON / CSV Data Serialization  
 7. Unity Visualization Layer  
 
-Each layer is modular and loosely coupled via structured data contracts.
+Each layer is modular and loosely coupled, allowing independent development and future system expansion.
 
 ---
 
@@ -66,7 +85,7 @@ Nodes are evaluated independently under shared environmental conditions.
 
 ---
 
-### 2. 7-Stage Heatwave Simulation
+### 2. Heatwave Simulation
 
 The simulation progresses through 7 discrete environmental stages:
 
@@ -82,7 +101,7 @@ This models progressive environmental stress rather than binary overload events.
 
 ### 3. QUBO-Inspired Risk Engine
 
-The risk model frames transformer stress using a structured quadratic penalty formulation inspired by QUBO-compatible logic.
+The risk model applies a structured quadratic penalty formulation inspired by QUBO-compatible logic.
 
 Risk score components include:
 
@@ -101,12 +120,11 @@ Classification thresholds:
 - Yellow (Moderate Risk)  
 - Red (High Risk)  
 
-This structured approach improved simulated risk-classification performance by approximately 25–35% compared to simpler threshold-based heuristics.
+This approach improves simulated risk classification performance by approximately 25–35% compared to static threshold-based heuristics.
 
 <img width="415" height="337" alt="Risk Model" src="https://github.com/user-attachments/assets/451e0bf8-5f83-4e97-b4e2-b8c1a472c41b" />
 
-> Note: The implementation is QUBO-framed but does not execute quantum computation.
-
+> Note: The implementation is QUBO-framed and inspired by optimization formulations, but does not execute quantum computation.
 
 ---
 
@@ -119,24 +137,33 @@ Each classification generates a plaintext explanation derived from:
 - Environmental severity  
 - Cascading stress amplification  
 
-This ensures interpretability of risk outputs for research and decision-support contexts.
+This ensures interpretability for research, planning, and decision-support contexts.
 
 <img width="524" height="387" alt="Explanations" src="https://github.com/user-attachments/assets/77c3d299-04f3-4d19-91a2-33029aba7934" />
-
 
 ---
 
 ### 5. Cascading Failure Modeling
 
-The system integrates multi-factor stress interactions to model:
+The system incorporates multi-factor interactions to approximate:
 
 - Heat-driven degradation  
-- Compound overload scenarios  
-- Potential cascading transformer stress propagation  
+- Compound overload conditions  
+- Cascading stress propagation across neighboring nodes  
 
-Modeled results demonstrated simulated outage-reduction potential of 5–10%, representing an estimated $2–10M in annual cost avoidance per mid-size utility based on outage reports and transformer replacement cost data.
+Modeled results indicate simulated outage-reduction potential of 5–10%, corresponding to an estimated $2–10M in annual cost avoidance per mid-size utility based on outage and replacement cost data.
 
 <img width="448" height="337" alt="Risk Engine" src="https://github.com/user-attachments/assets/70d47080-c86a-45f0-a50e-e6b4c982b23a" />
+
+---
+
+## Engineering Decisions
+
+- Temperature normalization maps ambient conditions to a consistent 0–1 severity scale  
+- Load scaling increases demand proportionally with temperature (up to ~25%)  
+- Neighbor-based stress approximates localized grid clustering effects  
+- Modular architecture separates simulation, risk modeling, and visualization layers  
+- Structured JSON/CSV outputs enable interoperability and downstream processing  
 
 ---
 
@@ -151,11 +178,11 @@ Data contracts are defined in:
 
 `docs/DATA_SCHEMA.md`
 
-This separation enables:
+This enables:
 
 - Visualization independence  
-- Future ML training compatibility  
-- Optimization solver integration  
+- Compatibility with ML workflows  
+- Integration with optimization solvers  
 
 ---
 
@@ -168,7 +195,7 @@ The Unity frontend provides:
 - Time slider for heatwave progression  
 - Visual tracking of evolving grid stress  
 
-The visualization consumes structured JSON outputs and does not embed risk logic internally, preserving architectural separation.
+The visualization consumes structured simulation outputs and does not embed risk logic internally, preserving system modularity.
 
 ---
 
@@ -182,7 +209,17 @@ The visualization consumes structured JSON outputs and does not embed risk logic
 
 ---
 
-## Lab Usefulness 
-- Reusable starting point for grid stress demos
-- Shows a clean data pipeline from simulation output → Unity visualization
-- Leaves clear hooks for real datasets, ML models, or quantum solvers
+## Limitations
+
+- Uses synthetic grid data rather than real utility datasets  
+- Does not explicitly model transformer internal hot-spot temperature  
+- Risk model is rule-based rather than learned from historical data  
+- Spatial relationships between nodes are approximated  
+
+---
+
+## Lab Usefulness
+
+- Provides a reusable foundation for grid stress simulation and demonstration  
+- Demonstrates a clean pipeline from simulation output to interactive visualization  
+- Establishes a framework for future integration of real datasets, ML models, or optimization systems  
