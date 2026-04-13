@@ -118,6 +118,9 @@ Each classification generates a plaintext explanation derived from:
 
 This ensures interpretability of risk outputs for research and decision-support contexts.
 
+<img width="524" height="387" alt="Explanations" src="https://github.com/user-attachments/assets/77c3d299-04f3-4d19-91a2-33029aba7934" />
+
+
 ---
 
 ### 5. Cascading Failure Modeling
@@ -174,7 +177,7 @@ The visualization consumes structured JSON outputs and does not embed risk logic
 
 ---
 
-## How it can be useful to the lab
+## Lab Usefulness 
 - Reusable starting point for grid stress demos
 - Shows a clean data pipeline from simulation output → Unity visualization
 - Leaves clear hooks for real datasets, ML models, or quantum solvers
