@@ -1,5 +1,5 @@
 # Quantum-Inspired Grid Stress Digital Twin for Extreme Heat Events
-A QUBO-inspired risk model paired with a simple Unity visualization for grid stress during heat events.
+A QUBO-inspired risk model paired with a Unity-based visualization to simulate grid stress during heat events, informed by research on power grid and climate trends observed across the Southern United States (2015–2025).
 
 [![Demo](GridScene.png)](https://github.com/user-attachments/assets/e1acbaf3-58ea-4822-954d-f233a7e79b80)
 
