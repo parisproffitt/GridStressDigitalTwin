@@ -103,9 +103,8 @@ Classification thresholds:
 
 This structured approach improved simulated risk-classification performance by approximately 25–35% compared to simpler threshold-based heuristics.
 
-> Note: The implementation is QUBO-framed but does not execute quantum computation.
-
 <img width="448" height="337" alt="Risk Engine" src="https://github.com/user-attachments/assets/70d47080-c86a-45f0-a50e-e6b4c982b23a" />
+> Note: The implementation is QUBO-framed but does not execute quantum computation.
 
 
 ---
