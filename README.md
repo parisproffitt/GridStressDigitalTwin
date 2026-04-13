@@ -103,7 +103,7 @@ Classification thresholds:
 
 This structured approach improved simulated risk-classification performance by approximately 25–35% compared to simpler threshold-based heuristics.
 
-<img width="448" height="337" alt="Risk Engine" src="https://github.com/user-attachments/assets/70d47080-c86a-45f0-a50e-e6b4c982b23a" />
+<img width="415" height="337" alt="Risk Model" src="https://github.com/user-attachments/assets/451e0bf8-5f83-4e97-b4e2-b8c1a472c41b" />
 
 > Note: The implementation is QUBO-framed but does not execute quantum computation.
 
@@ -135,6 +135,8 @@ The system integrates multi-factor stress interactions to model:
 - Potential cascading transformer stress propagation  
 
 Modeled results demonstrated simulated outage-reduction potential of 5–10%, representing an estimated $2–10M in annual cost avoidance per mid-size utility based on outage reports and transformer replacement cost data.
+
+<img width="448" height="337" alt="Risk Engine" src="https://github.com/user-attachments/assets/70d47080-c86a-45f0-a50e-e6b4c982b23a" />
 
 ---
 
