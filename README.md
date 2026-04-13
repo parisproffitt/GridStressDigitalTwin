@@ -1,8 +1,6 @@
 # Quantum-Inspired Grid Stress Digital Twin for Extreme Heat Events
 
-A QUBO (Quadratic Unconstrained Binary Optimization)-inspired risk modeling system integrated with a Unity-based digital twin.
-
-Simulates grid stress during extreme heat events, informed by power grid and climate trends across the Southern United States (2015–2025).
+A QUBO (Quadratic Unconstrained Binary Optimization)-inspired risk modeling system integrated with a Unity-based digital twin. Simulates grid stress during extreme heat events, informed by power grid and climate trends across the Southern United States (2015–2025).
 
 [![Demo](GridScene.png)](https://github.com/user-attachments/assets/e1acbaf3-58ea-4822-954d-f233a7e79b80)
 
