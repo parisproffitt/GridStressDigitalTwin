@@ -220,4 +220,10 @@ The visualization consumes structured simulation outputs and does not embed risk
 
 - Provides a reusable foundation for grid stress simulation and demonstration  
 - Demonstrates a clean pipeline from simulation output to interactive visualization  
-- Establishes a framework for future integration of real datasets, ML models, or optimization systems  
+- Establishes a framework for future integration of real datasets, ML models, or optimization systems
+
+---
+
+## License
+
+[MIT](LICENSE) — Copyright (c) 2026 Paris Proffitt
